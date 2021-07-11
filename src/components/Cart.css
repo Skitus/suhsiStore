@@ -1,0 +1,147 @@
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 20px 0px;
+}
+.empty p {
+  color: #CF1D40;
+  font-weight: 400;
+  opacity: 0.5;
+  width: 60%;
+  text-align: center;
+  margin: 0px auto;
+  display: block;
+  margin-bottom: 20px;
+}
+.empty img {
+  display: block;
+  margin: 0px auto;
+}
+.empty button {
+  cursor: pointer;
+  display: inline;
+  margin: 0px 15px;
+  border-radius: 100px;
+  background-color: #CF1D40;
+  opacity: 0.5;
+  color: whitesmoke;
+  padding: 10px 10px;
+  text-align: center;
+  border: none;
+  transition: 0.3s ease background-color;
+}
+.empty button:hover {
+  background-color: black;
+  opacity: 1;
+}
+
+.cart {
+  width: 85%;
+  padding: 10px 0px;
+  margin: 20px auto;
+}
+.cart span {
+  border: 1px solid #CF1D40;
+  border-radius: 360px;
+  text-align: center;
+  padding: 5px 10px;
+  font-size: 20px;
+  margin: 0px 10px;
+  line-height: -20px;
+  transition: 0.2s ease background-color;
+}
+.cart span:hover {
+  background-color: #CF1D40;
+  cursor: pointer;
+}
+.cart .flex-cart {
+  display: flex;
+  flex-direction: column;
+}
+.cart .flex-cart .flex-cart-cage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart .flex-cart .flex-cart-cage .clearCage {
+  text-decoration: underline;
+  color: lightgray;
+  cursor: pointer;
+}
+
+.sushiBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img_sushiBlock {
+  width: 150px;
+  height: 150px;
+  object-position: center;
+  object-fit: contain;
+}
+
+block-text {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.plusMinusBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.btns {
+  cursor: pointer;
+  display: inline;
+  margin: 0px 15px;
+  border-radius: 100px;
+  background-color: #CF1D40;
+  opacity: 0.5;
+  color: whitesmoke;
+  padding: 10px 10px;
+  text-align: center;
+  border: none;
+  transition: 0.3s ease background-color;
+}
+.btns:hover {
+  background-color: black;
+  opacity: 1;
+}
+
+.btnsk {
+  cursor: pointer;
+  display: inline;
+  margin: 0px 15px;
+  border-radius: 100px;
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px 10px;
+  text-align: center;
+  border: none;
+  transition: 0.3s ease background-color;
+}
+.btnsk:hover {
+  background-color: #CF1D40;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=Cart.css.map */

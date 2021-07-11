@@ -1,0 +1,84 @@
+{
+  "sushi": [
+    {
+      "id": 0,
+      "imageUrl": "https://ninjasushi.com.ua/img/1010.png",
+      "name": "Ролы Ямамото",
+      "description": "филадельфия гриль, мацумото гриль, нигири лосось гриль",
+      "sizes": [220, 400],
+      "price": [70, 210],
+      "category": 1,
+      "rating": 4
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://ninjasushi.com.ua/img/54.png",
+      "name": "Нигри Угорь",
+      "description": "канада, 4 сыра, химавари",
+      "sizes": [220, 440, 950],
+      "price": [75, 210, 350],
+      "category": 2,
+      "rating": 6
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://ninjasushi.com.ua/img/tunec2.png",
+      "name": "Гункан Тунец",
+      "description": "нигири лосось, филадельфия с лососем, нигири угорь, филадельфия с угрем",
+      "sizes": [220, 400, 840],
+      "price": [110, 240, 350],
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://ninjasushi.com.ua/img/23-1.png",
+      "name": "Золотые драконы",
+      "description": "лосось, рис, кунжут, соус унаги, угорь, авокадо, икра, креветка, морской гребешок, соус шрирача, японский",
+      "sizes": [400, 840],
+      "price": [240, 350],
+      "category": 3,
+      "rating": 2
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://ninjasushi.com.ua/img/bakedset.png",
+      "name": "Запечёный сет",
+      "description": "маки лосось, нигири лосось, филадельфия с лососем",
+      "sizes": [220, 400, 840],
+      "price": [110, 240, 350],
+      "category": 4,
+      "rating": 8
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://ninjasushi.com.ua/img/gunkanset.png",
+      "name": "Гункан сет",
+      "description": "гункан гребешок, гункан лосось, гункан тунец, гункан угорь, гункан креветка",
+      "sizes": [220, 400, 840],
+      "price": [110, 240, 350],
+      "category": 0,
+      "rating": 2
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://ninjasushi.com.ua/img/87.png",
+      "name": "Сет Острый",
+      "description": "лосось, нори, огурец, рис, сыр сливочный",
+      "sizes": [400, 840],
+      "price":  [240, 350],
+      "category": 2,
+      "rating": 9
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://ninjasushi.com.ua/img/64.png",
+      "name": "Острая креветка",
+      "description": "нори, рис, соус унаги, авокадо, икра, креветка, снежный краб, ореховый соус",
+      "sizes": [220, 400],
+      "price": [240, 350],
+      "category": 2,
+      "rating": 10
+    }
+  ]
+}

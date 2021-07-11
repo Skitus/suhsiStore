@@ -1,0 +1,153 @@
+.Main {
+  background-color: whitesmoke;
+  margin: 0px 15px;
+  padding: 10px;
+}
+.Main .flex-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Main .Categories {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.Main .Categories div {
+  cursor: pointer;
+  display: inline;
+  margin: 0px 15px;
+  border-radius: 100px;
+  background-color: #CF1D40;
+  opacity: 0.5;
+  color: whitesmoke;
+  padding: 10px 10px;
+  text-align: center;
+}
+.Main .Categories div.active {
+  background-color: black;
+  opacity: 1;
+}
+
+.sort {
+  position: relative;
+}
+.sort__label {
+  display: flex;
+  align-items: center;
+}
+.sort__label svg {
+  margin-right: 8px;
+}
+.sort__label b {
+  margin-right: 8px;
+}
+.sort__label span {
+  color: #CF1D40;
+  border-bottom: 1px dashed #CF1D40;
+  cursor: pointer;
+}
+.sort__popup {
+  position: absolute;
+  right: 0;
+  margin-top: 15px;
+  background: #ffffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 0;
+  width: 160px;
+}
+.sort__popup ul {
+  overflow: hidden;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.sort__popup ul li {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+.sort__popup ul li.active, .sort__popup ul li:hover {
+  background: rgba(254, 95, 30, 0.05);
+}
+.sort__popup ul li.active {
+  opacity: 0.5;
+  font-weight: bold;
+  color: #CF1D40;
+}
+
+.sushi_flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 50px;
+}
+.sushi_flex .block_sushi {
+  width: 25%;
+  margin: 20px 4%;
+  border-radius: 5px;
+  transition: 0.3s ease box-shadow;
+}
+.sushi_flex .block_sushi:hover:nth-child(odd) {
+  box-shadow: 0px 0px 30px #FBA8B9, 0px 0px 30px #FBA8B9;
+}
+.sushi_flex .block_sushi:hover:nth-child(even) {
+  box-shadow: 0px 0px 30px #1CC5C6, 0px 0px 30px #1CC5C6;
+}
+.sushi_flex .block_sushi .img_sushi {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+}
+.sushi_flex .block_sushi .name {
+  font-weight: bold;
+  margin-left: 20px;
+}
+.sushi_flex .block_sushi .description {
+  margin-left: 20px;
+}
+.sushi_flex .block_sushi .flex-sizes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.sushi_flex .block_sushi .flex-sizes .size {
+  background-color: wheat;
+  border-radius: 100px;
+  display: block;
+  padding: 20px;
+  margin: 10px 20px;
+}
+.sushi_flex .block_sushi .flex-sizes .size.active {
+  background-color: #1CC5C6;
+}
+.sushi_flex .block_sushi .flex-sizes .size.disabled {
+  /*          background-color: wheat;*/
+  opacity: 0.4;
+  pointer-events: none;
+}
+.sushi_flex .block_sushi .price {
+  margin: 10px;
+  margin-left: 20px;
+}
+.sushi_flex .block_sushi .flex-price {
+  display: flex;
+  justify-content: flex-start;
+}
+.sushi_flex .block_sushi .flex-price .btn-main {
+  background-color: #1CC5C6;
+  border-radius: 100px;
+  border: none;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  color: black;
+  margin: 10px 20px;
+  margin-right: 0px;
+}
+
+/*# sourceMappingURL=Main.css.map */
